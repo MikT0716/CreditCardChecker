@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     top: 5%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: .1em;
     font-size: 3em;
     z-index: 10;
     box-shadow:  .1em .1em .3em rgb(89, 89, 89);
@@ -207,10 +207,10 @@ video {
      width: 100%;
      }
      #title {
-         padding-top: .5em;
+         padding-top: .4em;
      }
      #creditcard p {
-         font-size: 1.2em;
+         font-size: 1.4em;
      }
  }
 
