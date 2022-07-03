@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/ccc.css">
+    <script src="ccc.js" defer></script>
+    <title>Credit Card Checker</title>
+</head>
+<body>
+
+    <div id="rightback"><video src="style/right.mp4" autoplay loop muted></video></div>
+    <div id="leftback"><video src="style/left.mov" autoplay loop muted></video></div>
+        <div id="title">Credit Card Checker</div>
+        <div id="creditcard" class="sheen">
+           <input type="text" id="cardnumber" maxlength="16" onkeypress="return event.charCode>=48 && event.charCode<=57">
+           <p>Your name would be around here <br>
+           Validity: MM / YY</p>
+           <div id="cardicon"><img src="" alt=""></div>
+        </div>
+        <div id="resultbox">
+            <p>Your Credit Card is:</p>
+            <p id="result"></p>
+        </div>
+        <footer style="position:absolute; bottom: 1em; right: 1em; font-size: 1.2em;">Based on <a href="https://en.wikipedia.org/wiki/Luhn_algorithm" target="_blank">Luhn algorithm</a> (hint: example numbers are in the console)</footer>
+</body>
+</html>
